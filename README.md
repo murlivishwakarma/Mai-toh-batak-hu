@@ -1,1 +1,25 @@
 # Mai-toh-batak-hu
+## 🚀 Getting Started
+
+Follow these steps to set up the project locally after cloning:
+
+### 🧾 Prerequisites
+
+- Make sure you have **Node.js** and **npm** installed. You can download them from [https://nodejs.org](https://nodejs.org)
+
+---
+
+### 🛠️ Setup Instructions
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/YourUsername/my-react-app.git
+
+# 2. Move into the project directory
+cd my-react-app
+
+# 3. Install all dependencies
+npm install
+
+# 4. Start the development server
+npm run dev   # or npm start if you're using Create React App
