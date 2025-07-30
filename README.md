@@ -16,7 +16,7 @@ Follow these steps to set up the project locally after cloning:
 git clone https://github.com/YourUsername/my-react-app.git
 
 # 2. Move into the project directory
-cd my-react-app
+cd Mai-toh-batak-hu
 
 # 3. Install all dependencies
 npm install
