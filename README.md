@@ -13,7 +13,7 @@ Follow these steps to set up the project locally after cloning:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YourUsername/my-react-app.git
+git clone https://github.com/Sandeep-Singh27/Mai-toh-batak-hu.git
 
 # 2. Move into the project directory
 cd Mai-toh-batak-hu
