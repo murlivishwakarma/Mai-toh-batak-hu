@@ -22,4 +22,4 @@ cd Mai-toh-batak-hu
 npm install
 
 # 4. Start the development server
-npm run dev   # or npm start if you're using Create React App
+npm run dev 
