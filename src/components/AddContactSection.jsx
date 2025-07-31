@@ -6,7 +6,7 @@ function AddContactSection(){
                 
             <AddContactDetails/>
             <div className="w-2/5 mr-20 ml-10">
-                <div className="border-4 rounded-2xl border-white w-full h-5/6">
+                <div className="border-4 rounded-2xl border-white w-full h-4/6">
                     <img 
                         src="src\assets\Goose\Goose.gif"
                         className="rounded-xl h-full w-full object-cover"

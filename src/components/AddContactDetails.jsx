@@ -11,7 +11,7 @@ function AddContactDetails(){
     const navigate = useNavigate()
 
     const update=()=>{
-        setUseForRef(sampleRef.current.value!=""? sampleRef.current.value : "Your textbox empty")
+        setUseForRef(sampleRef.current.value!=""? sampleRef.current.value : "You are foobar!")
     }
 
     const goToHome=()=>{
@@ -63,9 +63,20 @@ function AddContactDetails(){
                 <h1>just because you say "{reason_value != "" ? reason_value : "I got pulled over by a white cop"}"</h1>
             </div>
 
-            <div >
-                <button className="h-40 w-40 bg-yellow-400 ml-20 rounded-2xl border-2 border-white" onClick={update}>{useForRef}</button>
-                <button className="h-40 w-40 bg-yellow-400 ml-20 rounded-2xl border-2 border-white" onClick={goToHome}>go to home</button>
+            <div className="flex text-white font-mono font-bold gap-5 items-center">
+
+                <button 
+                className="h-25 w-25 bg-blue-500  rounded-xl border-3 border-white hover:bg-green-400 text-xl" 
+                onClick={update}>
+                    {useForRef}
+                </button>
+                {/* <hr className="w-3/5 border-2 border-white"/> */}
+                <button 
+                className="h-25 w-25 bg-blue-500  rounded-xl border-3 border-white text-xl text-center hover:bg-green-400" 
+                onClick={goToHome}>
+                    Home
+                </button>
+
             </div>
 
         </div>
