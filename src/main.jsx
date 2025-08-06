@@ -6,6 +6,7 @@ import { createBrowserRouter,RouterProvider } from 'react-router-dom';
 import Home from './pages/Home.jsx';
 import Contacts from './pages/Contacts.jsx';
 import Skills from './pages/Skills.jsx'
+import {GifContextprovider} from './components/GifContext.jsx';
 
 const router = createBrowserRouter([
 {
@@ -19,8 +20,10 @@ const router = createBrowserRouter([
  element:<Contacts/>},
 ])
 
-createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById("root")).render(
   <StrictMode>
-     <RouterProvider router={router}/>
-  </StrictMode>,
-)
+    <GifContextprovider>
+      <RouterProvider router={router} />
+    </GifContextprovider>
+  </StrictMode>
+);
