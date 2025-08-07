@@ -8,6 +8,7 @@ import Contacts from './pages/Contacts.jsx';
 import Skills from './pages/Skills.jsx'
 import {GifContextprovider} from './components/GifContext.jsx';
 
+
 const router = createBrowserRouter([
 {
  path:"/",
@@ -23,7 +24,9 @@ const router = createBrowserRouter([
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <GifContextprovider>
+   
       <RouterProvider router={router} />
+      
     </GifContextprovider>
   </StrictMode>
 );

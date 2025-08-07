@@ -32,8 +32,6 @@ export const GifContextprovider =({children})=>{
                   setLoading(false);
                 }
               };
-
-
              useEffect(()=>{
                     
                       fetchData();

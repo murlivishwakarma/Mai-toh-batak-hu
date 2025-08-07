@@ -20,7 +20,7 @@ function About({ name, description }) {
         }
         className="bg-white w-fit px-2 rounded font-bold font-mono hover:bg-blue-400 hover:border-2 hover:border-white hover:text-2xl hover:text-white mt-auto"
         >
-          {showMore? "Show Less":"Show More"}
+          {showMore? "Show More":"Show Less"}
         </button>
       </div>
       <div className=" w-1/2 border-3 m-3 rounded-2xl border-white">

@@ -31,7 +31,7 @@ function OfflineSkills(){
              
       <div className="flex flex-col items-center h-screen  w-screen bg-blue-400">
           <Header />
-          <h1 className="text-white text-3xl">Connect To internet To see More Stuff</h1>
+          <h1 className="text-white text-3xl mt-4">Connect To internet To see More Stuff</h1>
           <div className="flex gap-3 items-center h-full w-full justify-center">
             {skill_json.map((gif, index) => (
               <SkillCard

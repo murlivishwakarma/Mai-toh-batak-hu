@@ -1,10 +1,11 @@
 import AddContactDetails from "./AddContactDetails";
+import AddContactDetails1 from "./AddContactDetails1";
 
-function AddContactSection(){
+function AddContactSection({onSubmit}){
     return(
         <section className="bg-blue-400 flex justify-between w-full p-5 pt-10">
                 
-            <AddContactDetails/>
+            <AddContactDetails1  onParentSubmit={onSubmit}/>
             <div className="w-2/5 mr-20 ml-10">
                 <div className="border-4 rounded-2xl border-white w-full h-4/6">
                     <img 

@@ -35,7 +35,7 @@ function Skills(){
         ) : (
           <div className="flex flex-col items-center h-screen w-screen bg-blue-400">
             <Header />
-            <div className="flex flex-col gap-1 items-center p-2  mt-10 text-white-xl border-2 border-white rounded-xl">
+            <div className="flex bg-red-700 flex-col gap-1 items-center p-2  mt-10 text-white-xl border-2 border-white rounded-xl">
               <h1 className="text-white text-3xl font-serif">
                 Select type of Goose
               </h1>

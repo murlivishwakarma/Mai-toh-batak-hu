@@ -1,6 +1,6 @@
 import Nav from "./Nav";
 
-function Header() {
+function Header(){
   return (
     <>
       <div className="flex flex-row bg-blue-600 items-center w-1/1 h-1/12 border-1 border-white sticky top-0">
