@@ -1,7 +1,7 @@
 import Header from "../components/Header"
 import AddContactSection from "../components/AddContactSection";
 import { useState } from "react";
-import pfs from "../assets/Goose/goose.funny.gif"
+import pfs from "../assets/Goose/goose-funny.gif"
 
 function Contacts(){
 
