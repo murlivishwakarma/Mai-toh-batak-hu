@@ -1,6 +1,7 @@
 import Header from "../components/Header"
 import AddContactSection from "../components/AddContactSection";
 import { useState } from "react";
+import pfs from "../assets/Goose/goose.funny.gif"
 
 function Contacts(){
 
@@ -27,7 +28,7 @@ function Contacts(){
             </div>
             <div className="m-10 border-2 border-white rounded-2xl bg-blue-400">
               <img
-                src="src\assets\Goose\goose-funny.gif"
+                src={pfs}
                 className=" rounded-xl m-2"
               />
             </div>

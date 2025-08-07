@@ -1,5 +1,6 @@
 import AddContactDetails from "./AddContactDetails";
 import AddContactDetails1 from "./AddContactDetails1";
+import pfs from "../assets/Goose/Goose.gif"
 
 function AddContactSection({onSubmit}){
     return(
@@ -9,7 +10,7 @@ function AddContactSection({onSubmit}){
             <div className="w-2/5 mr-20 ml-10">
                 <div className="border-4 rounded-2xl border-white w-full h-4/6">
                     <img 
-                        src="src\assets\Goose\Goose.gif"
+                        src={pfs}
                         className="rounded-xl h-full w-full object-cover"
                     />
                 </div>
