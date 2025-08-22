@@ -6,5 +6,4 @@ function History(){
     </section>
     )
 }
-
 export default History;
